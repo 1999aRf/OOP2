@@ -1,5 +1,6 @@
-public class Car extends Vehicle {
+public class Car extends motorTransport {
     int n = 1;
+
 
     public Car(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
@@ -20,14 +21,12 @@ public class Car extends Vehicle {
     public void setWheelsCount(int wheelsCount) {
         this.wheelsCount = wheelsCount;
     }
-@Override
+
+    @Override
     public void updateTyre() {
         System.out.println(n + "Колесо - Меняем покрышку");
         n++;
-}
-
-@Override
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
     }
 }
+
+

@@ -8,10 +8,6 @@ public class Bycycle extends Vehicle {
         return modelName;
     }
 
-    public void setModelName(String modelName) {
-        this.modelName = modelName;
-    }
-
     public int getWheelsCount() {
         return wheelsCount;
     }
@@ -25,8 +21,4 @@ public class Bycycle extends Vehicle {
         n++;
     }
 
-    @Override
-    public void checkEngine() {
-
-    }
 }
