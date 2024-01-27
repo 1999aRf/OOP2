@@ -15,10 +15,9 @@ public class Bycycle extends Vehicle {
     public void setWheelsCount(int wheelsCount) {
         this.wheelsCount = wheelsCount;
     }
-@Override
-    public void updateTyre() {
-        System.out.println(n + "Колесо - Меняем покрышку");
-        n++;
-    }
 
+    @Override
+    public void service() {
+        super.service();
+    }
 }

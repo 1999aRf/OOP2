@@ -1,5 +1,5 @@
 public class Car extends motorTransport {
-    int n = 1;
+
 
 
     public Car(String modelName, int wheelsCount) {
@@ -23,9 +23,8 @@ public class Car extends motorTransport {
     }
 
     @Override
-    public void updateTyre() {
-        System.out.println(n + "Колесо - Меняем покрышку");
-        n++;
+    public void service() {
+        super.service();
     }
 }
 

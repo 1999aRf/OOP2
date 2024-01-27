@@ -1,5 +1,4 @@
 public class Truck extends motorTransport {
-    int n = 1;
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
